@@ -22,7 +22,7 @@ header{
 }
 
 main{
-    margin: 10px auto;
+    padding: 10px auto;
 
 }
 
@@ -36,7 +36,6 @@ main{
     flex-basis: 25%;
     padding: 10px 15px;
     margin: 20px 0;
-    display: flex;
     text-align: center;
 }
 
@@ -50,11 +49,10 @@ h2::before{
     color: rgb(239, 111, 139);
 }
 
-.contents p(2) ::first-letter>{
-    font-weight: bold;
-    color  rgb(97,206,249);
+.contents p:nth-of-type(2)::first-letter{
+font-weight: bold;
+color:rgb(97,206,249);
 }
-
 .contents img{
     margin: 10px 0;
     width: 70%;
